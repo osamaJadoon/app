@@ -26,7 +26,7 @@ public class BusInformationActivity extends AppCompatActivity {
         morningTime = findViewById(R.id.morningTime);
         eveningTime = findViewById(R.id.eveningTime);
         route = findViewById(R.id.busRoute);
-
+        // new editing
         busHelper = new BusHelper();
         databaseReference = FirebaseDatabase.getInstance().getReference();
     }
