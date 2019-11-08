@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/register_students"
+        android:title="@string/register_students"
+        app:showAsAction="never"/>
+    <item android:id="@+id/register_drivers"
+        android:title="@string/register_drivers"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/track_bus"
+        android:title="@string/track_bus"
+        android:icon="@drawable/ic_location"
+        app:showAsAction="never"/>
+    <group>
+        <item android:title="Map Options"
+            >
+            <menu>
+                <item android:id="@+id/normal_map"
+                    android:title="@string/normal_map"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/hybrid_map"
+                    android:title="@string/hybrid_map"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/satellite_map"
+                    android:title="@string/satellite_map"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/terrain_map"
+                    android:title="@string/terrain_map"
+                    app:showAsAction="never"/>
+            </menu>
+        </item>
+    </group>
+    <item android:id="@+id/bus_info"
+        android:title="Bus Info"
+        app:showAsAction="never"
+        />
+</menu>

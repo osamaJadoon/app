@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AdminPanelActivityA">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_id_admin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        >
+
+
+    <Button
+        android:id="@+id/register_driver_btn_id"
+        android:layout_width="165dp"
+        android:layout_height="160dp"
+        android:background="@drawable/circle"
+        android:padding="25dp"
+        android:text="@string/register_driver"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/register_student_btn_id"
+        android:layout_width="165dp"
+        android:layout_height="160dp"
+        android:background="@drawable/circle"
+        android:padding="25dp"
+        android:text="@string/register_student"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="-20dp"
+        android:textSize="18sp"
+        />
+        <Button
+            android:id="@+id/track_bus_btn_id"
+            android:layout_width="165dp"
+            android:layout_height="160dp"
+            android:background="@drawable/circle"
+            android:padding="25dp"
+            android:text="@string/track_bus"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="-20dp"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</LinearLayout>

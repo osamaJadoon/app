@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="16dp"
+    tools:context=".StudentRegisterActivityA">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_id5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/border"
+            android:backgroundTint="@color/green"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/student_registration_form"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/name_input_std_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_person_black"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/roll_no_input_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_create"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/roll_nu"
+            android:inputType="phone"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/department_input_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_school"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/department"
+            android:inputType="text"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/email_input_std_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_email_black"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/password_input_std_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_lock_black"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+
+        <EditText
+            android:id="@+id/confirm_password_std_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:drawableStart="@drawable/ic_lock_black"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:id="@+id/showPassLinearLayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="5dp">
+
+            <CheckBox
+                android:id="@+id/show_hide_pass_std_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="@string/show_password"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/student_register_button_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/black"
+        android:text="@string/register_student"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:padding="1dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
